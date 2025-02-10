@@ -111,13 +111,6 @@ section.imagem {
     background-attachment: fixed;
 }
 
-section.imagem > p {
-    display: inline-block DESATIVADO NO MOMENTO;
-    padding: 5px;
-    width: 80vw;
-    text-shadow: 1px 1px 1px black;
-}
-
 section#img01 {
     background-image: url('imagens/wash.jpg');
     background-size: cover;
@@ -125,9 +118,19 @@ section#img01 {
 }
 
 section#img02 {
+    color: white;
     background-image: url('imagens/polimento.jpg');
     background-size: cover;
     max-width: 100vw;
+    background-attachment: fixed;
+}
+
+section#img03 {
+    color: white;
+    background-image: url('imagens/farol.jpg');
+    background-size: cover;
+    max-width: 100vw;
+    background-attachment: fixed;
 }
 
 div.video {
