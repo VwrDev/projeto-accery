@@ -37,7 +37,7 @@ header {
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 5px;
     font-family: var(--font3);
     font-variant: small-caps;
     font-size: 100px;
@@ -46,7 +46,8 @@ header > h1 {
 
 header > p {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    font-size: 90%;
 }
 
 nav {
@@ -82,7 +83,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 26px; /*Espaçamento entre linhas*/
-    padding-left: 30px;
+    padding-left: 0px; /*Centralização do texto*/
     font-size: 2vw;
 }
 
@@ -135,7 +136,6 @@ section#img03 {
 
 div.video {
     background-color: darkgray;
-    padding: 22px;
     padding-bottom: 58%;
     position: relative;
 }
@@ -162,5 +162,6 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 12px;
+    font-size: 12px;
+    padding: 5px;
 }
