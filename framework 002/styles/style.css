@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Masque';
+    src: url(../fontes/MASQUE__.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 8px;
+
+    border: 1px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.400);
+}
+
+header > h1 {
+    font-family: 'Masque';
+    color: white;
+    padding: 2px;
+    font-size: 28px;
+
+    flex: 0 0 200px;
+
+    border: 1px;
+}
+
+header > nav {
+    display: flex;
+}
+
+header > nav > a {
+    margin-left: 6px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+ 
+
+    display: flex;
+
+    border: 1px;
+}
+
+header > nav > a:hover {
+    color: black;
+    background-color: white;
+
+    transition: background-color .8s;
+}
+
+main {
+    margin-top: 20px;
+}
+
