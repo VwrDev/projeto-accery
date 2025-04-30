@@ -6,12 +6,12 @@
 }
 
 * {
-    padding: 0;
+    padding: 0px;
     margin: 0px;
 }
 
 body {
-    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -70,6 +70,46 @@ header > nav > a:hover {
 }
 
 main {
-    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+   /** border: 1px dashed blue; **/
 }
 
+section.flex-content { /*Container pai*/
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding: 20px;
+}
+
+section > article {
+   /** border: 1px dashed red; **/
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article > div.text { 
+    flex: 1 1 500px; /*Onde definimos a quebra*/
+
+    //*border: 1px dashed yellow;**/
+}
+
+article > div.text > h2 {
+    font-family: 'Masque';
+}
+
+article > div.media {
+    flex: 1 1 500px;
+
+    /**border: 1px dashed purple;**/
+}
+
+
+div.media > img {
+    display: block;
+    margin: auto;
+}
