@@ -77,13 +77,17 @@ main {
 
 section.flex-content { /*Container pai*/
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+    flex-wrap: wrap;
 
     padding: 20px;
 }
 
 section > article {
-   /** border: 1px dashed red; **/
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: wrap;
+    border: 1px dashed red; 
 }
 
 article.text-media {
