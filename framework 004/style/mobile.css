@@ -16,10 +16,8 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: url(//imagens/farol.jpg) no-repeat center;
-    background-size: cover;
-    height: 100%;
+body {  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*START HEADER*/
@@ -42,8 +40,10 @@ header > p {
     font-size: 12px;
 }
 
-nav {
-    background-color: black;
+nav#menu {
+    display: flex;
+    justify-content: center;
+
     padding: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.400);
     position: sticky;
@@ -62,12 +62,25 @@ nav > a {
 }
 
 nav > a:hover {
-    color: rgb(3, 3, 3);
-    background-color: rgb(211, 207, 207);
+    color: rgb(201, 201, 201);
     padding: 4px;
 }
 /*FINISH HEADER*/
 
-.bg {
-    
+
+/*START MAIN*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+section#texto {
+    border: 1px blue dashed;
+    grid-column: 2;
+
+    padding: 20px;
 }
