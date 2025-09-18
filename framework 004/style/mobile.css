@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --preto-eerie: #171717;
+    --cinza-eerie: #262626;
+}
+
 html, body {
     height: 100%;
 }
@@ -22,7 +27,7 @@ body {
 
 /*START HEADER*/
 header {
-    background-image: linear-gradient(to top, black, rgb(27, 27, 27));
+    background-image: linear-gradient(to top, var(--preto-eerie), var(--cinza-eerie));
     color: white;
     text-align: center;
 }
@@ -86,4 +91,10 @@ section#texto {
 
     border-radius: 10px;
     padding: 20px;
+}
+
+section#texto h2 {
+    color: var(--preto-eerie);
+
+    padding-bottom: 10px;
 }
