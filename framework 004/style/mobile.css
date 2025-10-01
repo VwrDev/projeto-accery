@@ -156,3 +156,52 @@ article {
 }
 
 /*Finish cultura*/
+
+/*Start cultura*/
+
+#produtos a {
+    text-decoration: none;
+}
+
+#produtos h2 {
+    font-family: 'masque';
+    margin-bottom: 15px;
+}
+
+#produtos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#produtos-container .produto {
+    background-color: var(--cinza-eerie);
+    border-radius: 10px;
+    border-left: 5px solid rgb(182, 182, 182);
+    padding-left: 10px;
+    padding: 10px;
+}
+
+#produtos-container .produto:hover {
+    border-left-width: 15px;
+    border-left-color: white;
+    cursor: pointer;
+
+    transition: border-width 0.5s, border-color 0.5s;
+}
+
+#produtos-container .marca {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#produtos-container .nome {
+    color: white;
+    font-size: 1.5em;
+}
+
+#produtos-container .uso {
+    color: white;
+    font-size: 0.8em;
+}
