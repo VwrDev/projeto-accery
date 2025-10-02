@@ -180,10 +180,12 @@ article {
     border-left: 5px solid rgb(182, 182, 182);
     padding-left: 10px;
     padding: 10px;
+
+    transition: border-width 0.5s, border-color 0.5s;
 }
 
 #produtos-container .produto:hover {
-    border-left-width: 15px;
+    border-left-width: 18px;
     border-left-color: white;
     cursor: pointer;
 
