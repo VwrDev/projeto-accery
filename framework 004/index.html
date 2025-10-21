@@ -95,4 +95,18 @@
             </article>
         </main>
 </body>
+
+<script>
+    window.addEventListener('scroll', function () {
+        const menu = document.getElementById('menu');
+        const limite = menu.offsetTop;
+
+        if (window.scrollY > limite) {
+            menu.classList.add('fixed');
+        } else {
+            menu.classList.remove('fixed');
+        }
+    });
+</script>
 </html>
+
