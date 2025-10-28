@@ -216,3 +216,32 @@ article {
     color: white;
     font-size: 0.8em;
 }
+
+@media screen and (min-width:768px) {
+
+    main {
+        grid-template-columns: auto 200px 1fr auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+    section#texto {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    article#cultura {
+        grid-column: 3/4;
+    }
+
+    article#cultura {
+        grid-column: 3/4;
+    }
+
+    article#produtos {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        height: fit-content;
+        position: sticky;
+        top: 65px;
+    }
+}
