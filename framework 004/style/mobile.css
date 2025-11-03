@@ -217,6 +217,20 @@ article {
     font-size: 0.8em;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    background-color: var(--preto-eerie);
+    font-size: smaller;
+    padding: 5px;
+}
+
+footer p {
+    font-family: 'Masque';
+}
+
 @media screen and (min-width:768px) {
 
     main {
