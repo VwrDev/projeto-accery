@@ -217,6 +217,64 @@ article {
     font-size: 0.8em;
 }
 
+/*Finish Produtos*/
+/*Start Social*/
+
+#social h2 {
+    font-family: masque;
+}
+
+#social-container {
+    display: grid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#social-container .redes {
+    background-color: var(--cinza-eerie);
+    color: white;
+    padding: 20px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(182, 182, 182);
+    border-radius: 10px;
+
+    transition: border-width 0.5s, border-color 0.5s;
+}
+
+#social-container .redes > h3 {
+    padding: 10px;
+    padding-left: 8px;
+}
+
+#social-container .foto {
+    width: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+
+    border: 5px solid var(--cinza-eerie);
+    outline: 5px solid white;
+}
+
+#social-container .redes:hover {
+    border-left-width: 18px;
+    border-left-color: white;
+    cursor: pointer;
+
+    transition: border-width 0.5s, border-color 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -256,5 +314,11 @@ footer p {
         height: fit-content;
         position: sticky;
         top: 65px;
+    }
+
+    /*Start Social*/
+
+    article#social {
+        grid-column: 3/4;
     }
 }
