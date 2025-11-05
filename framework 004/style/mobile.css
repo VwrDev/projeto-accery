@@ -231,6 +231,9 @@ article {
 }
 
 #social-container .redes {
+    display: flex;
+    flex-direction: row;
+
     background-color: var(--cinza-eerie);
     color: white;
     padding: 20px;
@@ -241,20 +244,16 @@ article {
     transition: border-width 0.5s, border-color 0.5s;
 }
 
-#social-container .redes > h3 {
-    padding: 10px;
-    padding-left: 8px;
-}
-
 #social-container .foto {
-    width: 50px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1; /*Indica o tamanho do frame que vai ocupar*/
+    object-fit: cover; /*Dimensiona a imagem para não ficar achatada*/
+    overflow: hidden; /*Dimensiona a imagem para não ficar achatada*/
+    border-radius: 50%; 
 
-    border: 5px solid var(--cinza-eerie);
-    outline: 5px solid white;
+    border: 2px solid var(--cinza-eerie); 
+    outline: 2px solid white;
+
 }
 
 #social-container .redes:hover {
