@@ -232,7 +232,9 @@ article {
 
 #social-container .redes {
     display: flex;
-    flex-direction: row;
+     flex-direction: row;
+    align-items: center; /*Alinha os intens no eixo horizontal*/
+    gap:10px; /* Define o espaço entre a imagem e o texto*/
 
     background-color: var(--cinza-eerie);
     color: white;
